@@ -1,0 +1,29 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "to do list project based on truffle",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "09sh27up@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.15",
+    "truffle": "5.0.2",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  }
+}
